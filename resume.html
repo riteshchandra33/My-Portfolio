@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritesh Somashekar - Resume</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/resume-page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="resume-page">
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1 id="resume-name">Ritesh Somashekar</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html" class="active">Resume</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="resume-viewer">
+            <div class="section-header">
+                <h2>My Resume</h2>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="resume-container">
+                <div class="resume-options">
+                    <a href="assets/resume.pdf" id="download-resume" class="btn primary-btn" download><i class="fas fa-download"></i> Download PDF</a>
+                    <a href="#" id="print-resume" class="btn secondary-btn"><i class="fas fa-print"></i> Print Resume</a>
+                </div>
+                
+                <div class="resume-frame-container">
+                    <div class="resume-frame-wrapper" id="resume-frame-wrapper">
+                        <iframe id="resume-frame" src="assets/resume.pdf" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; <span id="current-year">2025</span> <span id="footer-name">Ritesh Somashekar</span>. All Rights Reserved.</p>
+            <div class="footer-social">
+                <a href="#" id="footer-github" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" id="footer-linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="#" id="footer-twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/config.js"></script>
+    <script src="js/resume-page.js"></script>
+</body>
+</html>

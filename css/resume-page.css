@@ -1,0 +1,131 @@
+/* Resume Page Specific Styles */
+
+.resume-page main {
+    padding-top: 100px;
+    min-height: calc(100vh - 200px);
+}
+
+.resume-viewer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px 50px;
+}
+
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume-options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+.resume-frame-container {
+    width: 100%;
+    max-width: 850px;
+    height: 1100px;
+    background-color: var(--light-color);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.resume-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+.upload-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border: 3px dashed var(--border-color);
+    border-radius: 10px;
+    background-color: var(--light-color);
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.upload-area:hover {
+    border-color: var(--primary-color);
+    background-color: #f0f3ff;
+}
+
+.upload-area i {
+    font-size: 60px;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.upload-area h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--dark-color);
+}
+
+.upload-area p {
+    font-size: 16px;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+.resume-frame-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+#resume-frame {
+    width: 100%;
+    height: 100%;
+}
+
+.drag-over {
+    border-color: var(--primary-color);
+    background-color: #f0f3ff;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .resume-frame-container {
+        height: 800px;
+    }
+    
+    .upload-area {
+        width: 90%;
+        padding: 20px;
+    }
+    
+    .upload-area i {
+        font-size: 40px;
+    }
+    
+    .upload-area h3 {
+        font-size: 20px;
+    }
+    
+    .upload-area p {
+        font-size: 14px;
+    }
+    
+    .resume-options {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .resume-options .btn {
+        width: 100%;
+    }
+}
