@@ -7,7 +7,7 @@ const userData = {
     tagline: "Passionate about creating elegant solutions to complex problems",
     email: "ritesh.chandra33@gmail.com",
     location: "Washington DC, USA",
-    availability: "Open for opportunities",
+    availability: "Open for  Full-Time Roles",
     bio: "Seasoned Data Engineer and Business Analyst with 4 years of hands-on experience in designing and optimizing robust ETL pipelines, data quality frameworks, and advanced analytics solutions across the healthcare and academic sectors. Proven expertise in Python, SQL, AWS, and industry-leading tools like Informatica PowerCenter and Precisely platforms. Adept at leveraging data visualization tools such as Tableau and Power BI to transform complex datasets into strategic insights. Demonstrated success in automating workflows, enhancing data-driven decision-making, and delivering actionable business intelligence through cross-functional collaboration and innovative data solutions.",
     
     // Social Media Links
