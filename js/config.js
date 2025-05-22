@@ -36,7 +36,7 @@ const userData = {
             },
             {
                 title: "Associate ETL Engineer",
-                company: "Previous Company",
+                company: "Carelon Global Solutions(Elevance Health)",
                 period: "2018 - 2020",
                 description: "As part of the Seven Plus Locations project within the Precisely DATA360 ecosystem, I led efforts to streamline data profiling and automate exploratory data analysis (EDA) workflows for multiple hospital networks spanning 7+ regions. The core business use case was to enable data-driven clinical operations and regulatory reporting by reducing manual analysis and improving the consistency of record-keeping. For clients such as ABAF (Advanced Behavioral Analytics Facility) and Inventory Management Teams I built and deployed Python-based data pipelines that integrated disparate health record systems and standardized outputs for Tableau and Power BI dashboards. These visual tools provided real-time access to KPIs such as readmission risk, regional inventory gaps, and care coordination efficiency. I developed custom algorithms to automate medical invoice reconciliation — a critical need for finance teams within payer-provider networks. This solution improved claims balancing accuracy by 70% and reduced invoice-related error rates by over 40%, saving hundreds of hours of manual cross-checking and ensuring better SLA compliance with CMS and private insurers."
             }
