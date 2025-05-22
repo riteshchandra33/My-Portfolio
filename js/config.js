@@ -26,7 +26,7 @@ const userData = {
                 title: "Graduate Research Assistant",
                 company: "Costello College of Business - George Mason University",
                 period: "August 2024 - Present",
-                description: "• I designed and implemented Python and R-based algorithms to analyze social cohesion and community coping behaviors during disaster scenarios, leveraging large-scale real-world datasets. Through graph-based analytics, I uncovered key patterns of interaction, revealing that 62% of communities exhibited cohesive behaviors, while 18% demonstrated skeptical or distrustful tendencies in the wake of crises. Utilizing ensemble machine learning models, I forecasted behavioral trends with an RMSE of 0.89, capturing over 87% variance in community response patterns. Visual insights, built using R and Tableau, were instrumental in helping stakeholders identify actionable priorities and enhance strategic planning."
+                description: "I designed and implemented Python and R-based algorithms to analyze social cohesion and community coping behaviors during disaster scenarios, leveraging large-scale real-world datasets. Through graph-based analytics, I uncovered key patterns of interaction, revealing that 62% of communities exhibited cohesive behaviors, while 18% demonstrated skeptical or distrustful tendencies in the wake of crises. Utilizing ensemble machine learning models, I forecasted behavioral trends with an RMSE of 0.89, capturing over 87% variance in community response patterns. Visual insights, built using R and Tableau, were instrumental in helping stakeholders identify actionable priorities and enhance strategic planning."
             },
             {
                 title: "Data Engineer",
