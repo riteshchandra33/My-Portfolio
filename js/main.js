@@ -119,12 +119,27 @@ if (contactForm) {
             return;
         }
         
-        // Here you would typically send the form data to a server
-        // For this demo, we'll just show a success message
-        showAlert('Your message has been sent!', 'success');
+        // Show loading message
+        showAlert('Sending message...', 'info');
         
-        // Reset form
-        contactForm.reset();
+        // Prepare template parameters for EmailJS
+        const templateParams = {
+            from_name: name,
+            from_email: email,
+            subject: subject,
+            message: message
+        };
+        
+        // Send email using EmailJS
+        emailjs.send('service_xhvggu9', 'template_contact', templateParams)
+            .then(function(response) {
+                console.log('SUCCESS!', response.status, response.text);
+                showAlert('Your message has been sent!', 'success');
+                contactForm.reset();
+            }, function(error) {
+                console.log('FAILED...', error);
+                showAlert('Failed to send message. Please try again later.', 'danger');
+            });
     });
 }
 
