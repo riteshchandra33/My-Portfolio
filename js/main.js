@@ -122,58 +122,36 @@ if (contactForm) {
         // Show loading message
         showAlert('Sending message...', 'info');
         
-        // Use the sendForm method instead which is more reliable
-        // First, create a temporary form with the data
-        const tempForm = document.createElement('form');
-        tempForm.style.display = 'none';
+        // Simple direct approach using EmailJS send method
+        const templateParams = {
+            name: name,
+            email: email,
+            title: subject,
+            message: message,
+            reply_to: email
+        };
         
-        // Create and append hidden inputs with our data - using exact variable names from template
-        const nameInput = document.createElement('input');
-        nameInput.type = 'hidden';
-        nameInput.name = 'name';
-        nameInput.value = name;
-        tempForm.appendChild(nameInput);
-        
-        const emailInput = document.createElement('input');
-        emailInput.type = 'hidden';
-        emailInput.name = 'email';
-        emailInput.value = email;
-        tempForm.appendChild(emailInput);
-        
-        const titleInput = document.createElement('input');
-        titleInput.type = 'hidden';
-        titleInput.name = 'title';
-        titleInput.value = subject;
-        tempForm.appendChild(titleInput);
-        
-        const messageInput = document.createElement('input');
-        messageInput.type = 'hidden';
-        messageInput.name = 'message';
-        messageInput.value = message;
-        tempForm.appendChild(messageInput);
-        
-        // Add reply_to field to ensure replies go to the sender
-        const replyToInput = document.createElement('input');
-        replyToInput.type = 'hidden';
-        replyToInput.name = 'reply_to';
-        replyToInput.value = email;
-        tempForm.appendChild(replyToInput);
-        
-        document.body.appendChild(tempForm);
-        
-        // Send using the form method
-        emailjs.sendForm('service_xhvggu9', 'template_ex04ty3', tempForm)
+        // Send email using EmailJS with detailed logging
+        console.log('Attempting to send email with params:', templateParams);
+        emailjs.send('service_xhvggu9', 'template_ex04ty3', templateParams)
             .then(function(response) {
-                console.log('SUCCESS!', response.status, response.text);
+                console.log('EmailJS SUCCESS!', response);
+                // Clear any existing alerts first
+                const existingAlert = document.querySelector('.alert');
+                if (existingAlert) {
+                    existingAlert.remove();
+                }
                 showAlert('Your message has been sent!', 'success');
                 contactForm.reset();
-                // Remove the temporary form
-                document.body.removeChild(tempForm);
-            }, function(error) {
-                console.log('FAILED...', error);
+            })
+            .catch(function(error) {
+                console.error('EmailJS error:', error);
+                // Clear any existing alerts first
+                const existingAlert = document.querySelector('.alert');
+                if (existingAlert) {
+                    existingAlert.remove();
+                }
                 showAlert('Failed to send message. Please try again later.', 'danger');
-                // Remove the temporary form
-                document.body.removeChild(tempForm);
             });
     });
 }
