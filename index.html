@@ -313,9 +313,16 @@
     <script src="js/config.js?v=1685022580"></script>
     <!-- Load initialization script to apply user data -->
     <script src="js/init.js"></script>
-    <!-- Load other scripts -->
     <script src="js/main.js"></script>
     <script src="js/github-integration.js"></script>
+    <!-- EmailJS for contact form -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // Initialize EmailJS with your public key
+            emailjs.init('DrqrI2ZmtdW8SZu4N');
+        })();
+    </script>
     <!-- Script to remove filter buttons -->
     <script src="js/remove-filters.js"></script>
     <!-- Script to fix skills display -->
