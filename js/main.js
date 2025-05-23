@@ -127,7 +127,7 @@ if (contactForm) {
         const tempForm = document.createElement('form');
         tempForm.style.display = 'none';
         
-        // Create and append hidden inputs with our data
+        // Create and append hidden inputs with our data - using exact variable names from template
         const nameInput = document.createElement('input');
         nameInput.type = 'hidden';
         nameInput.name = 'name';
@@ -151,6 +151,13 @@ if (contactForm) {
         messageInput.name = 'message';
         messageInput.value = message;
         tempForm.appendChild(messageInput);
+        
+        // Add reply_to field to ensure replies go to the sender
+        const replyToInput = document.createElement('input');
+        replyToInput.type = 'hidden';
+        replyToInput.name = 'reply_to';
+        replyToInput.value = email;
+        tempForm.appendChild(replyToInput);
         
         document.body.appendChild(tempForm);
         
