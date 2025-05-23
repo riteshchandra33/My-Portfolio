@@ -31,7 +31,7 @@ function sendEmail(e) {
         reply_to: email
     };
 
-    emailjs.send("service_xhvggu9", "template_ex04ty3", templateParams)
+    emailjs.send("service_xhvggu9", "template_exd4ty3", templateParams, "DrqrI2ZmtdW8SZu4N")
         .then(response => {
             console.log('EmailJS SUCCESS!', response);
             // Clear any existing alerts first
