@@ -102,10 +102,10 @@ if (contactForm) {
         e.preventDefault();
         
         // Get form values
-        const name = document.getElementById('name').value;
-        const email = document.getElementById('email').value;
-        const subject = document.getElementById('subject').value;
-        const message = document.getElementById('message').value;
+        const name = document.getElementById('contact-name').value;
+        const email = document.getElementById('contact-email-input').value;
+        const subject = document.getElementById('contact-subject').value;
+        const message = document.getElementById('contact-message').value;
         
         // Validate form
         if (!name || !email || !subject || !message) {
