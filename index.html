@@ -314,17 +314,20 @@
     <!-- Load initialization script to apply user data -->
     <script src="js/init.js"></script>
     
-    <!-- EmailJS for contact form - Load BEFORE main.js -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- EmailJS CDN -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- EmailJS Init -->
     <script type="text/javascript">
-        (function() {
-            // Initialize EmailJS with your public key
-            emailjs.init('DrqrI2ZmtdW8SZu4N', {
-                // Optional configuration
-                strictMode: false // Less strict error checking
+        (function () {
+            emailjs.init({
+                publicKey: "DrqrI2ZmtdW8SZu4N", // Your actual public key
             });
         })();
     </script>
+
+    <!-- Contact Form Email Handler -->
+    <script src="js/email.js"></script>
     
     <!-- Main scripts -->
     <script src="js/main.js"></script>
