@@ -133,7 +133,7 @@ if (contactForm) {
         
         // Send email using EmailJS with detailed logging
         console.log('Attempting to send email with params:', templateParams);
-        emailjs.send('service_xhvggu9', 'template_ex04ty3', templateParams)
+        emailjs.send('service_xhvggu9', 'template_exd4ty3', templateParams)
             .then(function(response) {
                 console.log('EmailJS SUCCESS!', response);
                 // Clear any existing alerts first
