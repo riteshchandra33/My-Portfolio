@@ -124,14 +124,14 @@ if (contactForm) {
         
         // Prepare template parameters for EmailJS
         const templateParams = {
-            from_name: name,
-            from_email: email,
-            subject: subject,
+            name: name,
+            email: email,
+            title: subject,  // Using 'title' as seen in the template for the subject
             message: message
         };
         
         // Send email using EmailJS
-        emailjs.send('service_xhvggu9', 'template_contact', templateParams)
+        emailjs.send('service_xhvggu9', 'template_ex04ty3', templateParams)
             .then(function(response) {
                 console.log('SUCCESS!', response.status, response.text);
                 showAlert('Your message has been sent!', 'success');
