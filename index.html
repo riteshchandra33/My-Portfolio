@@ -320,7 +320,10 @@
     <script type="text/javascript">
         (function() {
             // Initialize EmailJS with your public key
-            emailjs.init('DrqrI2ZmtdW8SZu4N');
+            emailjs.init('DrqrI2ZmtdW8SZu4N', {
+                // Optional configuration
+                strictMode: false // Less strict error checking
+            });
         })();
     </script>
     <!-- Script to remove filter buttons -->
