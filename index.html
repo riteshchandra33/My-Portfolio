@@ -313,9 +313,8 @@
     <script src="js/config.js?v=1685022580"></script>
     <!-- Load initialization script to apply user data -->
     <script src="js/init.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/github-integration.js"></script>
-    <!-- EmailJS for contact form -->
+    
+    <!-- EmailJS for contact form - Load BEFORE main.js -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
         (function() {
@@ -326,6 +325,10 @@
             });
         })();
     </script>
+    
+    <!-- Main scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/github-integration.js"></script>
     <!-- Script to remove filter buttons -->
     <script src="js/remove-filters.js"></script>
     <!-- Script to fix skills display -->
