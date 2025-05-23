@@ -62,8 +62,9 @@ const userData = {
         programming: [
             { name: "Python", icon: "fab fa-python", level: 95 },
             { name: "JavaScript", icon: "fab fa-js-square", level: 88 },
-            { name: "PySpark", icon: "fas fa-fire", level: 88 },
+            { name: "PySpark", icon: "fas fa-fire", level: 75 },
             { name: "R", icon: "fas fa-chart-line", level: 90 },
+            { name: "Scala", icon: "fas fa-chart-line", level: 70 },
             { name: "SQL", icon: "fas fa-database", level: 92 },
             { name: "Linux", icon: "fab fa-linux", level: 85 },
             { name: "MongoDB", icon: "fas fa-leaf", level: 80 }
@@ -72,6 +73,7 @@ const userData = {
             { name: "Data Analytics", icon: "fas fa-chart-bar", level: 95 },
             { name: "Data Profiling", icon: "fas fa-search", level: 90 },
             { name: "Data Warehousing", icon: "fas fa-warehouse", level: 88 },
+            { name: "Data Quality Control", icon: "fas fa-warehouse", level: 88 },
             { name: "ETL", icon: "fas fa-exchange-alt", level: 95 },
             { name: "Git", icon: "fab fa-git-alt", level: 92 },
             { name: "Machine Learning", icon: "fas fa-brain", level: 85 },
@@ -81,11 +83,12 @@ const userData = {
             { name: "Power BI", icon: "fas fa-chart-pie", level: 90 },
             { name: "Tableau", icon: "fas fa-table", level: 92 },
             { name: "Databricks", icon: "fas fa-bolt", level: 88 },
+            { name: "Apache Airflow", icon: "fas fa-bolt", level: 88 },
             { name: "Precisely Assure", icon: "fas fa-check-circle", level: 88 },
             { name: "Precisely Data360", icon: "fas fa-sync", level: 85 },
             { name: "AWS", icon: "fab fa-aws", level: 80 },
             { name: "JIRA", icon: "fab fa-jira", level: 85 },
-            { name: "Power Center", icon: "fas fa-cogs", level: 82 }
+            { name: "Power Platform", icon: "fas fa-cogs", level: 82 }
         ]
     }
 };
