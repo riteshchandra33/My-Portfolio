@@ -7,9 +7,12 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Priority projects to be displayed in the first row
         const priorityProjects = [
+            'Agentic-AI-for-Intelligent-Service-Ticket-Management-and-SLA-Compliance-Monitoring',
             'Diabetes-Dynamics',
             'Veggie-Mingle-Matching',
-            'Agentic-AI-for-Intelligent-Service-Ticket-Management-and-SLA-Compliance-Monitoring'
+            'Insurance-Auto-Claims-Analysis',
+            'Predicting-Credit-Card-Account-Cancellations',
+            'Unveiling-Post-COVID-Job-Dynamics-in-NYC'
         ];
         
         // Get all project cards
