@@ -46,13 +46,13 @@ const userData = {
                 degree: "Master of Science in Data Analytics and Engineering",
                 institution: "George Mason University",
                 period: "August 2023 - May 2025",
-                description: "Graduated with honors The coursework compramised of Analytics and Decision Analysis, Business Analytics, Data Mining, Viz using Tableau, Advanced Machine Learning, Neural Networks, Natural Language Processing, Applied Statistics"
+                description: "Graduated with honors. The coursework focused on Analytics and Decision Analysis, Business Analytics, Data Mining, Viz using Tableau, Advanced Machine Learning, Neural Networks, Natural Language Processing, Applied Statistics"
             },
             {
                 degree: "Bachelor of Science in Information Science and Engineering",
                 institution: "Visvesvaraya Technological University",
                 period: "August 2016 - september 2020",
-                description: "Graduated with honors. The coursework compramised of Machine Learning, Database Management Systems, Data Science Foundations, Python and Java Programming."
+                description: "Graduated with honors. The coursework focused on Machine Learning, Database Management Systems, Data Science Foundations, Python and Java Programming."
             }
         ]
     },
