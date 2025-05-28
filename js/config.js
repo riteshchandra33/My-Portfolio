@@ -43,7 +43,7 @@ const userData = {
         ],
         education: [
             {
-                degree: "Master of Science in Data Analytics and Engineering in Computer Science",
+                degree: "Master of Science in Data Analytics and Engineering",
                 institution: "George Mason University",
                 period: "August 2023 - May 2025",
                 description: "Graduated with honors The coursework compramised of Analytics and Decision Analysis, Business Analytics, Data Mining, Viz using Tableau, Advanced Machine Learning, Neural Networks, Natural Language Processing, Applied Statistics"
