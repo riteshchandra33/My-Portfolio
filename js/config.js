@@ -76,6 +76,7 @@ const userData = {
             { name: "ETL", icon: "fas fa-exchange-alt", level: 95 },
             { name: "Git", icon: "fab fa-git-alt", level: 92 },
             { name: "Machine Learning", icon: "fas fa-brain", level: 85 },
+            { name: "Prompt Enginering", icon: "fas fa-brain", level: 85 },
             { name: "Web Scraping", icon: "fas fa-spider", level: 90 }
         ],
         tools: [
@@ -87,6 +88,7 @@ const userData = {
             { name: "Precisely Data360", icon: "fas fa-sync", level: 85 },
             { name: "AWS", icon: "fab fa-aws", level: 80 },
             { name: "JIRA", icon: "fab fa-jira", level: 85 },
+            { name: "Kubernetes", icon: "fas fa-leaf", level: 80 },
             { name: "MongoDB", icon: "fas fa-leaf", level: 80 },
             { name: "Power Platform", icon: "fas fa-cogs", level: 82 }
         ]
