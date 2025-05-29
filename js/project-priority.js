@@ -9,9 +9,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const priorityProjects = [
             'Agentic-AI-for-Intelligent-Service-Ticket-Management-and-SLA-Compliance-Monitoring',
             'Diabetes-Dynamics',
+            'Predicting-Credit-Card-Account-Cancellations',
             'Veggie-Mingle-Matching',
             'Insurance-Auto-Claims-Analysis',
-            'Predicting-Credit-Card-Account-Cancellations',
             'Unveiling-Post-COVID-Job-Dynamics-in-NYC'
         ];
         
