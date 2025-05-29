@@ -66,8 +66,7 @@ const userData = {
             { name: "R", icon: "fas fa-chart-line", level: 90 },
             { name: "Scala", icon: "fas fa-chart-line", level: 70 },
             { name: "SQL", icon: "fas fa-database", level: 92 },
-            { name: "Linux", icon: "fab fa-linux", level: 85 },
-            { name: "MongoDB", icon: "fas fa-leaf", level: 80 }
+            { name: "Linux", icon: "fab fa-linux", level: 85 }
         ],
         dataEngineering: [
             { name: "Data Analytics", icon: "fas fa-chart-bar", level: 95 },
@@ -88,6 +87,7 @@ const userData = {
             { name: "Precisely Data360", icon: "fas fa-sync", level: 85 },
             { name: "AWS", icon: "fab fa-aws", level: 80 },
             { name: "JIRA", icon: "fab fa-jira", level: 85 },
+            { name: "MongoDB", icon: "fas fa-leaf", level: 80 },
             { name: "Power Platform", icon: "fas fa-cogs", level: 82 }
         ]
     }
