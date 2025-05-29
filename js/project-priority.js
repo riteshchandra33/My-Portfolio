@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
             'Predicting-Credit-Card-Account-Cancellations',
             'Veggie-Mingle-Matching',
             'Insurance-Auto-Claims-Analysis',
+            'My-Portfolio',
             'Unveiling-Post-COVID-Job-Dynamics-in-NYC'
         ];
         
